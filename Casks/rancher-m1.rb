@@ -5,7 +5,7 @@ cask "rancher-m1" do
   sha256 arm:   "41feea152b3dcff8fb729106b195e4dc7632cda669ef7054045f72c595825242",
          intel: "828dde44868c3c33fe709e099f9af080143a379f9fba2e3bacd8641f5ad8e72b"
 
-  url "https://github.com/rancher-sandbox/rancher-desktop/releases/download/v#{version}/Rancher.Desktop-#{version}-mac.#{arch}.dmg",
+  url "https://github.com/rancher-sandbox/rancher-desktop/releases/download/v#{version}/Rancher.Desktop-#{version}-mac.#{arch}.zip",
       verified: "github.com/rancher-sandbox/rancher-desktop/"
   name "Rancher Desktop (M1 version)"
   desc "Kubernetes and container management on the desktop"
