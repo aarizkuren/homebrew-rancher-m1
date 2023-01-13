@@ -1,4 +1,4 @@
-cask "rancher" do
+cask "rancher-m1" do
   arch arm: "aarch64", intel: "x86_64"
 
   version "1.7.0"
