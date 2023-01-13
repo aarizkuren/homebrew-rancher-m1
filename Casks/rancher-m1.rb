@@ -2,7 +2,7 @@ cask "rancher-m1" do
   arch arm: "aarch64", intel: "x86_64"
 
   version "1.7.0"
-  sha256 arm:   "41feea152b3dcff8fb729106b195e4dc7632cda669ef7054045f72c595825242",
+  sha256 arm:   "35717cec609e21f2e744ef66c8681af4fa1199251f243af93f791ca02dbb8557",
          intel: "828dde44868c3c33fe709e099f9af080143a379f9fba2e3bacd8641f5ad8e72b"
 
   url "https://github.com/rancher-sandbox/rancher-desktop/releases/download/v#{version}/Rancher.Desktop-#{version}-mac.#{arch}.zip",
